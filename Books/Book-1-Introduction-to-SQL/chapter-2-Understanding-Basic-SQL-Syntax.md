@@ -19,7 +19,7 @@ The SQL language is subdivided into several language elements, including:
 
 ## 2.2 Basic SQL Commands - SELECT
 
-The SELECT query retrieves one or more rows from one or more tables.
+The `SELECT` query retrieves one or more rows from one or more tables.
 
 **Syntax:**
 ```sql
@@ -40,7 +40,7 @@ SELECT * FROM contacts;
 
 ## 2.3 Basic SQL Commands - INSERT
 
-The INSERT command Adds one or more rows into a table.
+The `INSERT` command Adds one or more rows into a table.
 
 **Syntax:**
 ```sql
@@ -57,5 +57,23 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
 ```
 
 ## 2.4 Basic SQL Commands - UPDATE
+
+The `UPDATE` command modifies one or more rows in a table.
+
+**Syntax:**
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+
+**Example:**
+```sql
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;
+```
+
+**Note:** If `WHERE` clause is not specified, the update will run across the entire table.
 
 ## 2.5 Basic SQL Commands - DELETE
