@@ -77,3 +77,17 @@ WHERE CustomerID = 1;
 **Note:** If `WHERE` clause is not specified, the update will run across the entire table.
 
 ## 2.5 Basic SQL Commands - DELETE
+
+The `DELETE` command removes one or more rows from one table.
+
+**Syntax:**
+```sql
+DELETE FROM table_name WHERE condition;
+```
+
+**Example:**
+```sql
+DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+```
+
+**Note:** If `WHERE` clause is not mentioned, then all the rows are deleted.
