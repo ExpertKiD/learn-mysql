@@ -15,7 +15,7 @@ The SQL language is subdivided into several language elements, including:
   defined as a standard part of the SQL grammar.
 * Insignificant **whitespace** is generally ignored in SQL statements and queries, making it easier to format SQL code for readability.
 
-![Image](SQL-syntax.png)
+![Image](SQL-syntax.jpg)
 
 ## 2.2 Basic SQL Commands - SELECT
 
