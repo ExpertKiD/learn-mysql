@@ -19,9 +19,42 @@ The SQL language is subdivided into several language elements, including:
 
 ## 2.2 Basic SQL Commands - SELECT
 
+The SELECT query retrieves one or more rows from one or more tables.
 
+**Syntax:**
+```sql
+SELECT column1, column2, ... FROM table_name;
+
+or
+
+SELECT * FROM table_name; 
+```
+
+**Example:**
+```sql
+SELECT first_name, last_name FROM contacts;
+
+# * means select all
+SELECT * FROM contacts; 
+```
 
 ## 2.3 Basic SQL Commands - INSERT
+
+The INSERT command Adds one or more rows into a table.
+
+**Syntax:**
+```sql
+INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...);
+or
+INSERT INTO table_name VALUES (value1, value2, value3, ...);
+```
+
+**Example:**
+
+```sql
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+```
 
 ## 2.4 Basic SQL Commands - UPDATE
 
