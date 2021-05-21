@@ -41,6 +41,25 @@ SELECT * FROM person;
 fetch.
 
 ## 3.4 The FROM Clause
+
+The FROM clause defines the table you want to query. It is possible to query multiple tables as well.
+
+**GOOD PRACTICE:** It is a good practice to always qualify the `table` for the `column`.
+
+```sql
+SELECT first_name, last_name FROM person;
+-- vs.
+SELECT person.first_name, person.last_name FROM person;
+```
+
+**BEST PRACTICE:** It's best practice to always alias the table name as well as qualify the `table` name for the `column`.
+
+```sql
+SELECT person.first_name, person.last_name FROM person;
+-- vs.
+SELECT p.first_name, p.last_name FROM person p;
+```
+
 ## 3.5 How to Constrain the Result Set
 ## 3.6 DISTINCT and NOT DISTINCT
 ## 3.7 Summary
