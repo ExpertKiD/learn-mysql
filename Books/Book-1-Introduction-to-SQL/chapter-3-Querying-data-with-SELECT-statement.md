@@ -88,3 +88,8 @@ SELECT DISTINCT p.first_name, p.last_name FROM person p;
 **NOTE:** `DISTINCT` constraint applies to all the column names in the `SELECT` statement.
 
 ## 3.7 Summary
+
+* Query data with the `SELECT` command
+* The `SELECT` list defines the columns
+* The `FROM` clause defines the table
+* `DISTINCT` constrains the results to unique values
