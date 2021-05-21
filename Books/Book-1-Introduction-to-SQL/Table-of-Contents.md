@@ -39,5 +39,14 @@
     5.6 HAVING <br/>
     5.7 Summary <br/>
 6. [Matching Different Data Tables with JOINS](chapter-6-Matching-Different-Data-Tables-with-Joins.md) <br/>
+    6.1 Introduction <br/>
+    6.2 CROSS JOIN <br/>
+    6.3 INNER JOIN <br/>
+    6.4 OUTER JOINs <br/>
+    6.5 LEFT OUTER JOIN <br/>
+    6.6 RIGHT OUTER JOIN <br/>
+    6.7 FULL OUTER JOIN <br/>
+    6.8 SELF JOIN <br/>
+    6.9 Summary <br/>
 7. [Adding, Changing, and Removing Data](chapter-7-Adding-Changing-Removing-Data.md) <br/>
 8. [Creating Database Tables](chapter-8-Creating-Database-Tables.md) <br/>
