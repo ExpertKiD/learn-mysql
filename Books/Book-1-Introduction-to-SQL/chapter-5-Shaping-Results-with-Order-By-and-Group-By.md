@@ -101,3 +101,9 @@ SELECT
     HAVING FirstNameCount >= 5;
 ```
 ## 5.7 Summary
+
+* Answering more complex questions requires more complex queries
+* `ORDER BY` to sort result sets
+* SET functions to roll-up or slice
+* `GROUP BY` to create subsets
+* `HAVING` to restrict `GROUP BY`
