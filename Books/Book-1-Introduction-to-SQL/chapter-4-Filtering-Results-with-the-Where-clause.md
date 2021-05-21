@@ -77,6 +77,22 @@ SELECT p.first_name, p.last_name
 
 ## 4.7 `LIKE`
 
+`LIKE` is a fuzzy version of `=`. It allows for string with special characters inside i.e. wildcards. If the wildcard 
+match is true, the row is included otherwise excluded.
+
+> Who are all the people in my contact list that have a first name athat beings with the letter J?
+
+```sql
+SELECT p.first_name, p.last_name
+    FROM person p 
+    WHERE p.first_name LIKE 'j%';
+```
+
+Wildcards: 
+
+* Percentage(`%`): any string of zero or more characters.
+* Underscore(`_`):any single character.
+
 ## 4.8 `IN`
 
 ## 4.9 `IS`
