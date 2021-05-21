@@ -120,4 +120,15 @@ SELECT p.first_name, p.last_name
 
 ## 4.10 `IS NOT`
 
+`IS NOT` is a special operator like the not equals operator, but only works with `NULL`.
+
+> Who are all the people in my contact list that have a last name?
+
+```sql
+SELECT p.first_name, p.last_name
+    FROM person p 
+    WHERE p.last_name IS NOT NULL;
+```
+
 ## 4.11 Summary
+
