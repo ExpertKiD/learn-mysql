@@ -21,7 +21,7 @@ The SELECT List most of the time contains:
 * a list of columns from a table you want to query.
 * a FROM clause is required for this cause.
 * after every column comes a comma.
-* Except: no comma ater the last column.
+* Except: no comma after the last column.
 
 ```sql
 SELECT <column_name>,<column_name>,<column_name> FROM <table_name>;
