@@ -16,6 +16,17 @@ SELECT p.last_name                  -- SELECT clause
 
 ## 4.2 Boolean Operators
 
+Boolean Operators:
+* Equals (`=`)
+* Not equal to (`<>`)
+* Greater than (`>`)
+* Less than (`<`)
+* Greater or equal (`>=`)
+* Less or equal (`<=`)
+
+All these operators are used to form a single expression, but we need to link multiple expression most of the time. And, we'll learn
+those keywords in the next section.
+
 ## 4.3 The `AND` keyword
 
 ## 4.4 The `OR` keyword
