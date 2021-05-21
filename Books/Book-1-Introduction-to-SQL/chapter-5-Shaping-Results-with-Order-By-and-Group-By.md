@@ -38,6 +38,12 @@ Functions:
 4. `AVG()`          - average of all value of column (does not include `NULL` values)
 5. `SUM()`          - sum of all the value of the column ( does not include `NULL` values, only numeric column)
 
+> What is the toatal numbe of times I've contacted my contacts?
+
+```sql
+SELECT SUM(p.contacted_number) 
+    FROM person p;
+```
 
 ## 5.4 Set Function and Qualifiers
 
