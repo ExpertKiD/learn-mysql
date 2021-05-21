@@ -54,6 +54,14 @@ SELECT p.first_name, p.last_name
 ``` 
 ## 4.5 Other Boolean operators
 
+Other Boolean operators:
+
+* `BETWEEN` operator
+* `LIKE` operator
+* `IN` operator
+* `IS` operator
+* `IS NOT` operator
+
 ## 4.6 `BETWEEN`
 
 ## 4.7 `LIKE`
