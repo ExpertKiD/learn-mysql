@@ -61,5 +61,11 @@ SELECT p.first_name, p.last_name FROM person p;
 ```
 
 ## 3.5 How to Constrain the Result Set
+
+There are two ways to constrain the number of results.
+
+1. WHERE Clause
+2. DISTINCT Qualifier
+
 ## 3.6 DISTINCT and NOT DISTINCT
 ## 3.7 Summary
