@@ -18,7 +18,7 @@ SELECT 'Hello','World';
 ## 3.2 The SELECT List
 
 The SELECT List most of the time contains:
-* a list of columns fro a table you want to query.
+* a list of columns from a table you want to query.
 * a FROM clause is required for this cause.
 * after every column comes a comma.
 * Except: no comma ater the last column.
