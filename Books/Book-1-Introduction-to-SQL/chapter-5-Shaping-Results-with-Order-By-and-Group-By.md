@@ -60,6 +60,23 @@ SELECT COUNT(DISTINCT p.first_name)
 
 ## 5.5 GROUP BY
 
+* `GROUP BY` allows multiple columns with a set function
+* It breaks the result set into subsets
+* Runs se function against each subset
+* Result set returns 1 row per subset
+* Subset is dictated by column in `GROUP BY`
+* Column must appear in the `SELECT LIST`
+* Appears after `FROM` and/or `WHERE` clause
+
+> What is the count of every unique first names amongs my contacts?
+
+```sql
+SELECT COUNT(p.first_name),
+    p.first_name
+    FROM person p 
+    GROUP BY p.first_name;
+```
+
 ## 5.6 HAVING
 
 ## 5.7 Summary
