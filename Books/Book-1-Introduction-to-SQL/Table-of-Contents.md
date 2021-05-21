@@ -31,12 +31,13 @@
     4.10 IS NOT <br/>
     4.11 Summary <br/>
 5. [Shaping Results with ORDER BY and GROUP BY](chapter-5-Shaping-Results-with-Order-By-and-Group-By.md) <br/>
-    5.1 ORDER BY <br/>
-    5.2 Set Functions <br/>
-    5.3 Set Function and Qualifiers <br/>
-    5.4 GROUP BY <br/>
-    5.5 HAVING <br/>
-    5.6 Summary <br/>
+    5.1 Introduction <br/>
+    5.2 ORDER BY <br/>
+    5.3 Set Functions <br/>
+    5.4 Set Function and Qualifiers <br/>
+    5.5 GROUP BY <br/>
+    5.6 HAVING <br/>
+    5.7 Summary <br/>
 6. [Matching Different Data Tables with JOINS](chapter-6-Matching-Different-Data-Tables-with-Joins.md) <br/>
 7. [Adding, Changing, and Removing Data](chapter-7-Adding-Changing-Removing-Data.md) <br/>
 8. [Creating Database Tables](chapter-8-Creating-Database-Tables.md) <br/>
