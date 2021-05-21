@@ -19,6 +19,17 @@
     3.6 DISTINCT and NOT DISTINCT <br/>
     3.7 Summary <br/>
 4. [Filtering Results with the WHERE Clause](chapter-4-Filtering-Results-with-the-Where-clause.md) <br/>
+   4.1 The WHERE Clause <br/>
+   4.2 Boolean Operators <br/>
+   4.3 The AND keyword <br/>
+   4.4 The OR keyword <br/>
+   4.5 Other Boolean operators <br/>
+   4.6 BETWEEN <br/>
+   4.7 LIKE <br/>
+   4.8 IN <br/>
+   4.9 IS <br/>
+   4.10 IS NOT <br/>
+   4.11 Summary <br/>
 5. [Shaping Results with ORDER BY and GROUP BY](chapter-5-Shaping-Results-with-Order-By-and-Group-By.md) <br/>
 6. [Matching Different Data Tables with JOINS](chapter-6-Matching-Different-Data-Tables-with-Joins.md) <br/>
 7. [Adding, Changing, and Removing Data](chapter-7-Adding-Changing-Removing-Data.md) <br/>
