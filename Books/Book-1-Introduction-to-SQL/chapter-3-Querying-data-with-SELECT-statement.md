@@ -11,7 +11,7 @@ Example:
 
 A Simple Query with SELECT:
 
-```go
+```sql
 SELECT 'Hello','World';
 ```
 
@@ -68,4 +68,23 @@ There are two ways to constrain the number of results.
 2. DISTINCT Qualifier
 
 ## 3.6 DISTINCT and NOT DISTINCT
+
+`NOT DISTINCT` is used by default in `SELECT` statement. It is used to ask question like below:
+
+> What are the first names of all the people I knw?
+```sql
+SELECT p.first_name FROM person p;
+```
+
+`DISTINCT` gives all the unique entries for the `SELECT` statement.
+
+> What are all the **unique** first_names of people I know?
+```sql
+SELECT DISTINCT p.first_name FROM person p;
+
+SELECT DISTINCT p.first_name, p.last_name FROM person p;
+```
+
+**NOTE:** `DISTINCT` constraint applies to all the column names in the `SELECT` statement.
+
 ## 3.7 Summary
