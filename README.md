@@ -5,5 +5,4 @@ Source Reference: [Pluralsight MySQL Path](https://app.pluralsight.com/paths/ski
 
 ## Table of Contents
 1. [Introduction to SQL](Books/Book-1-Introduction-to-SQL/Table-of-Contents.md)
-2. 
 
