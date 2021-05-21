@@ -47,6 +47,17 @@ SELECT SUM(p.contacted_number)
 
 ## 5.4 Set Function and Qualifiers
 
+* Often used together
+* Add qualifier like `DISTINCT` inside of the function
+* Run against `DISTINCT` column values
+
+> What is the count of unique first names among my contacts?
+
+```sql
+SELECT COUNT(DISTINCT p.first_name)
+    FROM person p;
+```
+
 ## 5.5 GROUP BY
 
 ## 5.6 HAVING
