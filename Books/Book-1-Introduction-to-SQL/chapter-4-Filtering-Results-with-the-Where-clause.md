@@ -132,3 +132,5 @@ SELECT p.first_name, p.last_name
 
 ## 4.11 Summary
 
+The `WHERE` clause enables us to restrict the result set of our queries. The more complex our question is, the more complex
+the `WHERE` clause becomes.
