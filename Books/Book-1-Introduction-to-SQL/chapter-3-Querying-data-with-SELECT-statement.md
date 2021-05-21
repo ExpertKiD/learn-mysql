@@ -37,6 +37,9 @@ SELECT first_name, last_name FROM person;
 SELECT * FROM person;
 ```
 
+**BAD PRACTICE:** It's considered bad practice to select all the columns. So, it's better to specify the columns you want to 
+fetch.
+
 ## 3.4 The FROM Clause
 ## 3.5 How to Constrain the Result Set
 ## 3.6 DISTINCT and NOT DISTINCT
