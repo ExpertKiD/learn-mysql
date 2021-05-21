@@ -29,6 +29,17 @@ those keywords in the next section.
 
 ## 4.3 The `AND` keyword
 
+The `AND` keyword combines two expressions. If both are `TRUE`, row is included. If either is `FALSE`, now is excluded.
+
+> Who are all the people in my contact list that have the first name John and birthday later than 1965?
+
+```sql
+SELECT p.first_name, p.last_name
+    FROM person p
+    WHERE p. first_name, p.last_name
+    AND p.birth_date > '12/31/1965';
+``` 
+
 ## 4.4 The `OR` keyword
 
 ## 4.5 Other Boolean operators
