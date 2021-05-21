@@ -64,6 +64,17 @@ Other Boolean operators:
 
 ## 4.6 `BETWEEN`
 
+The `BETWEEN` operator acts on a column and two values. It is `TRUE` if column value is between two values. The two 
+values are included in the expression (like `>=` and `<=`).
+
+> Who are all the people in my cotact list that I have contacted at least once but no more than 20 times?
+
+```sql
+SELECT p.first_name, p.last_name
+    FROM person p
+    WHERE P.contacted BETWEEN 1 AND 20;
+```
+
 ## 4.7 `LIKE`
 
 ## 4.8 `IN`
