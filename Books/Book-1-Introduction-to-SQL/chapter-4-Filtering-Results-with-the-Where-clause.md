@@ -108,6 +108,16 @@ SELECT p.first_name, p.last_name
 
 ## 4.9 `IS`
 
+`IS` is a special operator like the equals operator, but only works with `NULL`.
+
+> Who are all the people in my contact list that don't have a last name?
+
+```sql
+SELECT p.first_name, p.last_name
+    FROM person p 
+    WHERE p.last_name IS NULL;
+```
+
 ## 4.10 `IS NOT`
 
 ## 4.11 Summary
