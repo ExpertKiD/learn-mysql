@@ -95,6 +95,17 @@ Wildcards:
 
 ## 4.8 `IN`
 
+`IN` is like a multi-value operator. It works with a list of potential values. It evaluates to `TRUE` if any of th values
+in the list is "hit".
+
+> Who are all the people in my contact list that are named Jon or Fritz?
+
+```sql
+SELECT p.first_name, p.last_name
+    FROM person p 
+    WHERE p.first_name IN ('Jon','Fritz');
+```
+
 ## 4.9 `IS`
 
 ## 4.10 `IS NOT`
