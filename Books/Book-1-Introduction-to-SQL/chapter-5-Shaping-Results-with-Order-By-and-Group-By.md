@@ -79,4 +79,25 @@ SELECT COUNT(p.first_name),
 
 ## 5.6 HAVING
 
+`HAVING` clause, like `WHERE` clause, works against `SELECT`. It allows you to restrict the subset.
+
+> What is the count of unique first names among my contacts that appear at least 5 times?
+
+```sql
+SELECT 
+    COUNT (DISTINCT p.first_name),
+    p.first_name
+    FROM person p
+    GROUP BY p.first_name
+    HAVING COUNT(DISTINCT p.first_name) >= 5;
+    
+-- or
+
+SELECT
+    COUNT (DISTINCT p.first_name) AS FirstNameCount,
+    p.first_name
+    FROM person p
+    GROUP BY p.first_name
+    HAVING FirstNameCount >= 5;
+```
 ## 5.7 Summary
